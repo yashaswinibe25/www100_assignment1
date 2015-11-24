@@ -1,0 +1,175 @@
+body
+{
+margin:0;
+background-image:url("../images/background-image1.jpg");
+}
+.container
+{
+max-width:1500px;
+margin:auto;
+}
+main
+{
+display:block;
+}
+nav 
+{
+background-color:rgba(231, 188, 231,0.5);
+margin-bottom:10px;
+padding:0px;
+}
+h1
+{
+font-family: 'Courgette', cursive;
+text-align:center;
+font-size:2em;
+color:#E61284;
+text-shadow:2px 2px 1.5px #FF69B4 ;  /*x-offset,y-offset,blur value*/
+}
+h1:first-letter
+{
+font-size:60px;
+}
+h4
+{
+color: #8B008B;
+font-family: 'Courgette', cursive;
+text-align:center;
+text-shadow:2px 2px 2px #DA70D6;
+}
+ul li
+{
+list-style:none;
+display:inline-block;
+padding:2px;
+}
+a
+{
+text-decoration:none;
+font-size:1.2em;
+padding:0px 10px;
+font-weight:bold;
+color:green;
+}
+section,main
+{
+background-color:rgba(231, 188, 231,0.2);
+}
+a:hover
+{
+color:blue; /*pseudo-classes*/
+}
+a:active
+{
+color:red;
+}
+img
+ {
+    display:inline-block;
+    margin:auto;
+	height:auto;
+    max-width:100%;
+}
+blockquote{
+color:purple;
+font-size:1.3em;
+padding:20px 20px;
+border-bottom:2px solid green;
+}
+
+.home-container
+{
+font-size:1em;
+color:DarkBlue ;
+margin:50px;
+}
+ p
+{
+font-family: 'Vollkorn', serif;
+font-size:1.1em;
+text-align:center;
+color:DarkBlue ;
+}
+h2
+{
+color:Crimson ;
+text-align:center;
+font-size:2em;
+font-family: 'Pacifico', cursive;
+}
+table,td,th
+{
+border-collapse:collapse;
+margin-left:100px;
+padding:15px;
+color:purple;
+}
+tr:nth-child(odd)
+{
+background-color:LemonChiffon;
+}
+tr:nth-child(even)
+{
+background-color:#D8BFD8 ;
+}
+h3
+{
+font-family: 'Courgette', cursive;
+color:green;
+text-align:center;
+}
+
+.about-container1
+{
+max-width:350px;
+float:left;
+display:block;
+border:1px solid red;
+background-color:#FFE4E1;
+margin-left:20px;
+margin-top:30px;
+padding:10px;
+}
+
+span
+{
+color:red;
+font-size:1.1em;
+}
+
+.about-container2
+{
+max-width:50%;
+height:auto;
+margin-left:460px;
+}
+.contact-section
+{
+background-color:rgba(240, 248, 255,0.5);
+}
+#about-aside
+{
+color:#8B008B;
+}
+#table-container
+{
+margin-left:50px;
+margin-top:-150px;
+height:auto;
+margin-bottom:10px;
+}
+section img
+{
+display:block;
+}
+small
+{
+color:#8B0000;
+}
+footer
+{
+background-color:rgba(231, 188, 231,0.5);
+text-align:center;
+clear:both;
+padding:5px;
+}
